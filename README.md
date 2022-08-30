@@ -1,11 +1,11 @@
-# SWCAN adapter for OVMS
-SWCAN board for [OVMS (Open Vehicle Monitoring System)](https://www.openvehicles.com/).
-The adapter is used for supporting 1-wire swcan bus in OVMS for GM vehicles. Tested with Chevrolet Volt. Can be suitable for Opel Ampera, Chevrolet Bolt, other GM cars.
+# SWCAN Expansion Board for OVMS
+SWCAN Expansion Board for [OVMS (Open Vehicle Monitoring System)](https://www.openvehicles.com/).
+The board is used for supporting 1-wire swcan bus in OVMS for GM vehicles. Tested with Chevrolet Volt. Can be suitable for Opel Ampera, Chevrolet Bolt, other GM cars.
 ![ovms](https://github.com/kssmll/ovms-swcan-board/blob/main/PCB1.jpg)
 
 OVMS firmware must be compiled with the swcan module selected in the configuration. 
 ### Installation
-Insert the adapter to the expansion slots. In some OVMS PCBs GEP7 is not routed to DSUB9_1. In this case you need to manually connect SWCAN J4 on the adapter board to DB9 pin1. Then the car's swcan bus must be connected to DB9 pin 1, not to CAN2.
+Insert the board to the expansion slots. In some OVMS PCBs GEP7 is not routed to DSUB9_1. In this case you need to manually connect SWCAN J4 on the adapter board to DB9 pin1. Then the car's swcan bus must be connected to DB9 pin 1, not to CAN2.
 ![ovms](https://github.com/kssmll/ovms-swcan-board/blob/main/PCB2.jpg)
 ### Parts List
 | Ref | Desc|
